@@ -24,3 +24,27 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.scribble-path {
+  stroke-dasharray: 150;
+  stroke-dashoffset: 150;
+  transition: stroke-dashoffset 0s;
+}
+
+.social-icon-link:hover .scribble-path {
+  animation: draw-scribble 1.2s ease forwards;
+}
+
+.social-icon-link:not(:hover) .scribble-path {
+  stroke-dashoffset: 150;
+  animation: none;
+}
+
+@keyframes draw-scribble {
+  from {
+    stroke-dashoffset: 150;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}

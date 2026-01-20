@@ -29,7 +29,7 @@ function Header() {
             <Link
               href="#"
               aria-label="Play"
-              className="w-6 h-6 text-slate-700 transition hover:text-sky-600 dark:text-slate-200 dark:hover:text-sky-400"
+              className="group/play relative w-6 h-6 text-slate-700 transition hover:text-sky-600 dark:text-slate-200 dark:hover:text-sky-400"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -49,6 +49,9 @@ function Header() {
                 <path d="M17 17v5"></path>
                 <path d="M21 17v5"></path>
               </svg>
+              <span className="absolute left-1/2 top-full z-50 mt-2 -translate-x-1/2 whitespace-nowrap rounded-md bg-slate-900 px-2 py-1 text-xs text-white opacity-0 shadow-lg transition-opacity duration-200 group-hover/play:opacity-100 dark:bg-slate-100 dark:text-slate-900">
+                Stay tuned
+              </span>
             </Link>
 
            
