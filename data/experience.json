@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "title": "Software Developer",
+    "company": "Depronto Infotech",
+    "tenure": "10/2024 - Present",
+    "backgroundImage": "/icons/card1.avif",
+    "description": [
+      "Developed and maintained web applications using modern technologies",
+      "Collaborated with cross-functional teams to deliver high-quality software solutions",
+      "Implemented responsive designs and optimized application performance"
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Mern Deveoper",
+    "company": "Todquest Enterprise",
+    "tenure": "10/2023 - 10/2024",
+    "backgroundImage": "/icons/card2.avif",
+    "description": [
+      "Built full-stack applications using MongoDB, Express, React, and Node.js",
+      "Implemented RESTful APIs and responsive user interfaces",
+      "Worked on database design and optimization"
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Web Developer Intern",
+    "company": "Corizo",
+    "tenure": "01/2023 - 05/2023",
+    "backgroundImage": "/icons/card3.avif",
+    "description": [
+      "Learned web development fundamentals and contributed to various projects",
+      "Gained hands-on experience with HTML, CSS, and JavaScript",
+      "Assisted in debugging and testing web applications"
+    ]
+  }
+]

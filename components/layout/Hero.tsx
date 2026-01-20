@@ -1,17 +1,15 @@
 "use client";
 
-import Link from "next/link";
 import { useEffect, useState } from "react";
+import { LETTER_COLORS } from "../../lib/constants";
 
 const name = "Anuj";
-const surnames = ["Srivastava", "श्रीवास्तव", "スリヴァスタヴァ","சிறீவத்சவா", "Шривастава"];
-
-const letterColors = [
-  "hover:text-blue-600 dark:hover:text-blue-400",
-  "hover:text-pink-600 dark:hover:text-pink-400",
-  "hover:text-purple-600 dark:hover:text-purple-400",
-  "hover:text-orange-600 dark:hover:text-orange-400",
-
+const surnames = [
+  "Srivastava",
+  "श्रीवास्तव",
+  "スリヴァスタヴァ",
+  "சிறீவத்சவா",
+  "Шривастава",
 ];
 
 function Hero() {
@@ -35,7 +33,9 @@ function Hero() {
             {name.split("").map((letter, idx) => (
               <span
                 key={`${letter}-${idx}`}
-                className={`transition duration-200 ease-out hover:-translate-y-1 hover:scale-110 ${letterColors[idx % letterColors.length]}`}
+                className={`transition duration-200 ease-out hover:-translate-y-1 hover:scale-110 ${
+                  LETTER_COLORS[idx % LETTER_COLORS.length]
+                }`}
               >
                 {letter}
               </span>

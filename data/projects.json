@@ -1,0 +1,66 @@
+[
+  {
+    "id": "1",
+    "title": "E-Commerce Platform",
+    "subtitle": "Full-stack shopping experience",
+    "description": "A modern e-commerce platform built with Next.js and TypeScript. Features include user authentication, shopping cart, payment integration, and admin dashboard. Responsive design with dark mode support.",
+    "url": "ecommerce-demo.vercel.app",
+    "iconType": "text",
+    "iconValue": "EC",
+    "iconBg": "blue",
+    "images": [
+      "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1556742111-a301076d9d18?w=800&h=600&fit=crop"
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Project Two",
+    "subtitle": "Description here",
+    "description": "This is a detailed description of Project Two. It showcases amazing features and capabilities.",
+    "url": "project2.com",
+    "icon": "/logo2.png",
+    "images": []
+  },
+  {
+    "id": "3",
+    "title": "Project Three",
+    "subtitle": "Description here",
+    "description": "This is a detailed description of Project Three. It showcases amazing features and capabilities.",
+    "url": "project3.com",
+    "iconType": "text",
+    "iconValue": "P3",
+    "iconBg": "green",
+    "images": []
+  },
+  {
+    "id": "4",
+    "title": "Project Four",
+    "subtitle": "Description here",
+    "description": "This is a detailed description of Project Four. It showcases amazing features and capabilities.",
+    "url": "project4.com",
+    "icon": "/logo4.png",
+    "images": []
+  },
+  {
+    "id": "5",
+    "title": "Project Five",
+    "subtitle": "Description here",
+    "description": "This is a detailed description of Project Five. It showcases amazing features and capabilities.",
+    "url": "project5.com",
+    "iconType": "text",
+    "iconValue": "P5",
+    "iconBg": "purple",
+    "images": []
+  },
+  {
+    "id": "6",
+    "title": "Project Six",
+    "subtitle": "Description here",
+    "description": "This is a detailed description of Project Six. It showcases amazing features and capabilities.",
+    "url": "project6.com",
+    "icon": "/logo6.png",
+    "images": []
+  }
+]

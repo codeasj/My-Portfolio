@@ -17,7 +17,6 @@ function Header() {
           </span>
           <span className="hidden text-2xl font-bold tracking-wider text-amber-400 transition-all duration-300 ease-in-out dark:text-amber-400 sm:flex sm:items-baseline">
             Hi&nbsp;there
-  {/* <span className="transition-all duration-300 group-hover:hidden">!</span> */}
             <span className="w-0 overflow-hidden transition-all duration-300 ease-in-out group-hover:w-30">
               , welcome!
             </span>
