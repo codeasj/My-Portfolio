@@ -23,7 +23,7 @@ function Hero() {
   }, []);
 
   return (
-    <section className="mx-auto flex max-w-5xl flex-col gap-10 px-6 py-16 md:flex-row md:items-center md:justify-between">
+    <section id="hero" className="mx-auto flex max-w-5xl flex-col gap-10 px-6 py-16 md:flex-row md:items-center md:justify-between">
       <div className="flex-1 space-y-6">
         <p className="text-sm font-semibold uppercase tracking-[0.2em] text-sky-600 dark:text-sky-400">
           Frontend Heavy Full Stack Developer

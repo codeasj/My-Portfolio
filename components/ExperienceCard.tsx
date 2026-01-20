@@ -52,14 +52,14 @@ function ExperienceCard({
           />
         </div>
 
-        <p className="font-medium uppercase tracking-[0.1em] sm:tracking-[0.15em] md:tracking-[0.2em] text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl text-center break-words">
+        <p className="font-medium uppercase tracking-widest sm:tracking-[0.15em] md:tracking-[0.2em] text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl text-center wrap-break-word">
           {title}
         </p>
 
         <div className="flex justify-between gap-1 sm:gap-2 md:gap-4">
           <div className="min-w-0 flex-1">
             <span className="opacity-75 text-[10px] sm:text-[10px] md:text-xs">Company Name</span>
-            <p className="text-[10px] sm:text-xs md:text-sm lg:text-base break-words">{company}</p>
+            <p className="text-[10px] sm:text-xs md:text-sm lg:text-base wrap-break-word">{company}</p>
           </div>
           <div className="text-right min-w-0 flex-1">
             <span className="opacity-75 text-[10px] sm:text-[10px] md:text-xs">Tenure</span>
@@ -70,20 +70,20 @@ function ExperienceCard({
 
       {/* Back side - details */}
       <div
-        className="absolute inset-0 backface-hidden p-3 sm:p-4 md:p-5 lg:p-6 flex flex-col justify-center font-mono text-white bg-slate-900 transition-transform duration-700"
+        className="absolute inset-0 backface-hidden p-3 sm:p-3 md:p-4 lg:p-6 flex flex-col justify-center font-mono text-white bg-slate-900 transition-transform duration-700 overflow-hidden"
         style={{
           transform: isFlipped ? "rotateY(0deg)" : "rotateY(180deg)",
         }}
       >
         {description && (
           <div
-            className={`transition-opacity duration-500 ${
+            className={`transition-opacity duration-500 w-full ${
               isFlipped ? "opacity-100 delay-300" : "opacity-0"
             }`}
           >
-            <ul className="list-disc list-outside space-y-1.5 sm:space-y-2 md:space-y-2.5 lg:space-y-3 text-[10px] sm:text-xs md:text-sm lg:text-sm xl:text-base opacity-90 leading-relaxed pl-4 sm:pl-5 md:pl-6">
+            <ul className="list-disc list-outside space-y-1 sm:space-y-1 md:space-y-1.5 lg:space-y-3 text-xs sm:text-[9px] md:text-xs lg:text-sm xl:text-base opacity-90 leading-relaxed pl-3 sm:pl-3 md:pl-4 lg:pl-6 pr-1.5 sm:pr-1.5 md:pr-2 lg:pr-0">
               {(Array.isArray(description) ? description : description.split('\n')).map((item, index) => (
-                <li key={index} className="wrap-break-word pr-2">{item}</li>
+                <li key={index} className="wrap-break-word pr-0.5 sm:pr-0.5 md:pr-1 lg:pr-2">{item}</li>
               ))}
             </ul>
           </div>

@@ -42,7 +42,7 @@ function Projects() {
   };
 
   return (
-    <section className="mx-auto max-w-5xl px-6 py-16">
+    <section id="projects" className="mx-auto max-w-5xl px-6 py-16">
       <AnimatedTitle text="Projects" />
       <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {projects.map((project) => (
