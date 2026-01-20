@@ -3,6 +3,7 @@
 import Link from "next/link";
 import DateTime from "../DateTime";
 import SocialIcon from "../SocialIcon";
+import { SOCIAL_LINKS } from "../../lib/constants";
 
 function Header() {
   return (
@@ -54,7 +55,7 @@ function Header() {
             </Link>
 
            
-            <SocialIcon href="https://github.com/codeasj" ariaLabel="GitHub">
+            <SocialIcon href={SOCIAL_LINKS.github} ariaLabel="GitHub">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -72,7 +73,7 @@ function Header() {
             </SocialIcon>
 
             <SocialIcon
-              href="https://www.linkedin.com/in/anujsrivastava0/"
+              href={SOCIAL_LINKS.linkedin}
               ariaLabel="LinkedIn"
             >
               <svg
@@ -95,7 +96,7 @@ function Header() {
               </svg>
             </SocialIcon>
 
-            <SocialIcon href="mailto:codeasj@outlook.com" ariaLabel="Email">
+            <SocialIcon href={`mailto:${SOCIAL_LINKS.email}`} ariaLabel="Email">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -113,7 +114,7 @@ function Header() {
               </svg>
             </SocialIcon>
 
-            <SocialIcon href="https://drive.google.com" ariaLabel="Resume">
+            <SocialIcon href={SOCIAL_LINKS.resume} ariaLabel="Resume">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"

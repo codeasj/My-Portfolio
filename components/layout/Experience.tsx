@@ -39,8 +39,9 @@ function Experience() {
           allowTouchMove={true}
           mousewheel={{
             enabled: true,
-            forceToAxis: false,
+            forceToAxis: true,
             sensitivity: 1,
+            releaseOnEdges: true,
             eventsTarget: 'container',
           }}
           breakpoints={{

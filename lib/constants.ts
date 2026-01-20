@@ -15,3 +15,11 @@ export const LETTER_COLORS = [
   "hover:text-purple-600 dark:hover:text-purple-400",
   "hover:text-orange-600 dark:hover:text-orange-400",
 ];
+
+// Social Links & Contact Information
+export const SOCIAL_LINKS = {
+  github: "https://github.com/codeasj",
+  linkedin: "https://www.linkedin.com/in/anujsrivastava0/",
+  email: "codeasj@outlook.com",
+  resume: "https://drive.google.com",
+} as const;

@@ -1,7 +1,8 @@
 import Projects from "@/components/layout/Projects";
 import Hero from "../components/layout/Hero";
 import Experience from "../components/layout/Experience";
-import Navigation from "../components/Navigation";
+import Footer from "../components/layout/Footer";
+import Navigation from "../components/layout/Navigation";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <Hero />
       <Projects />
       <Experience />
+      <Footer />
       <Navigation />
     </main>
   );

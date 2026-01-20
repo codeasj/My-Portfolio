@@ -2,7 +2,7 @@
 
 import { ReactNode, useState } from "react";
 import ProjectCard from "../ProjectCard";
-import ProjectModal from "../ProjectModal";
+import ProjectModal from "../modals/ProjectModal";
 import AnimatedTitle from "../AnimatedTitle";
 import { createProjectIcon } from "../../lib/utils";
 import projectsData from "../../data/projects.json";

@@ -7,9 +7,10 @@ type SocialIconProps = {
   href: string;
   ariaLabel: string;
   children: ReactNode;
+  disableScribble?: boolean;
 };
 
-function SocialIcon({ href, ariaLabel, children }: SocialIconProps) {
+function SocialIcon({ href, ariaLabel, children, disableScribble = false }: SocialIconProps) {
   const isExternal = href.startsWith("http");
   const isMailto = href.startsWith("mailto:");
 
@@ -23,7 +24,7 @@ function SocialIcon({ href, ariaLabel, children }: SocialIconProps) {
     >
       <span className="relative inline-block">
         {children}
-        {!isMailto && (
+        {!isMailto && !disableScribble && (
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="absolute top-6 left-0 z-10 w-6 h-6 opacity-0 transition-opacity duration-200 group-hover/social:opacity-100"
