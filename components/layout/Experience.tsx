@@ -1,35 +1,22 @@
 "use client";
 
-import { useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Mousewheel } from "swiper/modules";
-import type { Swiper as SwiperType } from "swiper";
 import "swiper/css";
 import AnimatedTitle from "../AnimatedTitle";
 import ExperienceCard from "../ExperienceCard";
 import experienceData from "../../data/experience.json";
-
-type ExperienceData = {
-  id: string;
-  title: string;
-  company: string;
-  tenure: string;
-  backgroundImage: string;
-  description?: string | string[];
-};
+import { ExperienceData } from "@/lib/types";
 
 function Experience() {
   const experiences = experienceData as ExperienceData[];
-  const swiperRef = useRef<SwiperType | null>(null);
-  const carouselRef = useRef<HTMLDivElement>(null);
-
 
   return (
     <section id="experience" className="w-full flex flex-col items-center py-16">
       <AnimatedTitle text="Experience" />
 
       {/* Cards Carousel */}
-      <div ref={carouselRef} className="max-w-full w-full relative px-4 sm:px-8 lg:px-6 xl:px-12">
+      <div className="max-w-full w-full relative px-4 sm:px-8 lg:px-6 xl:px-12">
         <Swiper
           modules={[Mousewheel]}
           spaceBetween={50}
@@ -55,9 +42,6 @@ function Experience() {
               centeredSlides: false,
               spaceBetween: 30,
             },
-          }}
-          onSwiper={(swiper) => {
-            swiperRef.current = swiper;
           }}
           className="mySwiper"
         >

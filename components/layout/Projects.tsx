@@ -1,22 +1,19 @@
 "use client";
 
-import { ReactNode, useState } from "react";
+import {  useState } from "react";
+import dynamic from "next/dynamic";
 import ProjectCard from "../ProjectCard";
-import ProjectModal from "../modals/ProjectModal";
 import AnimatedTitle from "../AnimatedTitle";
 import { createProjectIcon } from "../../lib/utils";
 import projectsData from "../../data/projects.json";
-import type { ProjectData } from "../../lib/types";
+import type { Project, ProjectData } from "../../lib/types";
 
-type Project = {
-  id: string;
-  title: string;
-  subtitle?: string;
-  description?: string;
-  url?: string;
-  icon: ReactNode;
-  images?: string[];
-};
+// Lazy loading ProjectModal
+const ProjectModal = dynamic(() => import("../modals/ProjectModal"), {
+  ssr: false,
+});
+
+
 
 function Projects() {
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);

@@ -9,6 +9,16 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  // Optimize bundle size
+  compress: true,
+  // Enable SWC minification (faster and smaller bundles)
+  swcMinify: true,
+  // Optimize production builds
+  productionBrowserSourceMaps: false,
+  // Reduce JavaScript bundle size
+  experimental: {
+    optimizePackageImports: ["swiper"],
+  },
 };
 
 export default nextConfig;

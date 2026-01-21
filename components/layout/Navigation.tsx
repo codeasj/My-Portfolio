@@ -1,7 +1,12 @@
 "use client";
 
 import { useState } from "react";
-import LetsTalkModal from "../modals/LetsTalkModal";
+import dynamic from "next/dynamic";
+
+// Lazy load LetsTalkModal
+const LetsTalkModal = dynamic(() => import("../modals/LetsTalkModal"), {
+  ssr: false, 
+});
 
 function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
