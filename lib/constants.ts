@@ -20,6 +20,6 @@ export const LETTER_COLORS = [
 export const SOCIAL_LINKS = {
   github: "https://github.com/codeasj",
   linkedin: "https://www.linkedin.com/in/anujsrivastava0/",
-  email: "codeasj@outlook.com",
-  resume: "https://drive.google.com",
+  email: "anujs1369@gmail.com",
+  resume: "https://drive.google.com/file/d/1N_MkmnA23r65v0D_joyw-uONDQ_0OfDY/view?usp=sharing",
 } as const;

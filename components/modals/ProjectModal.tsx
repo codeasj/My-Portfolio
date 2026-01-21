@@ -74,9 +74,16 @@ function ProjectModal({
                 </p>
               )}
               {url && (
-                <p className="mt-1 text-xs text-blue-600 dark:text-blue-400">
+                <a
+                  href={url.startsWith('http') ? url : `https://${url}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={(e) => e.stopPropagation()}
+                  className="mt-1 text-xs text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 truncate block max-w-full"
+                  title={url}
+                >
                   {url}
-                </p>
+                </a>
               )}
             </div>
           </div>
@@ -112,9 +119,10 @@ function ProjectModal({
           {/* Visit Button */}
           {url && (
             <a
-              href={`https://${url}`}
+              href={url.startsWith('http') ? url : `https://${url}`}
               target="_blank"
               rel="noopener noreferrer"
+              onClick={(e) => e.stopPropagation()}
               className="flex w-full items-center justify-center gap-2 rounded-lg bg-slate-900 px-4 py-2 text-white transition hover:bg-slate-800 dark:bg-white dark:text-slate-900 dark:hover:bg-slate-100"
             >
               Visit

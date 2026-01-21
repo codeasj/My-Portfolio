@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Image from "next/image";
 import { LETTER_COLORS } from "../../lib/constants";
 import heroData from "../../data/hero.json";
 
@@ -21,20 +22,24 @@ function Hero() {
           {heroData.title}
         </p>
         <h1 className="text-4xl font-bold leading-tight text-slate-900 dark:text-white md:text-5xl">
-          <div className="flex flex-wrap gap-1 text-5xl md:text-6xl">
-            {heroData.name.split("").map((letter, idx) => (
-              <span
-                key={`${letter}-${idx}`}
-                className={`transition duration-200 ease-out hover:-translate-y-1 hover:scale-110 ${
-                  LETTER_COLORS[idx % LETTER_COLORS.length]
-                }`}
-              >
-                {letter}
-              </span>
-            ))}
+          
+          <div className="flex flex-wrap gap-1 text-5xl md:text-6xl cursor-pointer group">
+            <span className="inline-block transition-all duration-500 ease-in-out group-hover:rotate-2 group-hover:-translate-y-2 group-hover:scale-105">
+              {Array.from(heroData.name).map((letter, idx) => (
+                <span
+                  key={`name-${idx}`}
+                  className={LETTER_COLORS[idx % LETTER_COLORS.length]}
+                >
+                  {letter}
+                </span>
+              ))}
+            </span>
           </div>
-          <div className="mt-2 text-4xl font-semibold text-slate-500 dark:text-slate-300 md:text-5xl">
-            {heroData.surnames[surnameIndex]}
+          
+          <div className="mt-2 text-4xl font-semibold text-slate-500 dark:text-slate-300 md:text-5xl cursor-pointer group">
+            <span className="inline-block transition-all duration-500 ease-in-out group-hover:-rotate-2 group-hover:-translate-y-2 group-hover:scale-105">
+              {heroData.surnames[surnameIndex]}
+            </span>
           </div>
           <div className="mt-3 text-2xl font-semibold md:text-3xl">
             {heroData.tagline}
@@ -45,12 +50,16 @@ function Hero() {
         </p>
       </div>
       <div className="flex-1 flex justify-center md:justify-end">
-        <div className="relative h-64 w-64 overflow-hidden rounded-3xl border border-slate-200 bg-linear-to-br from-sky-50 via-white to-slate-50 shadow-lg dark:border-slate-800 dark:from-slate-900 dark:via-slate-950 dark:to-slate-900">
-          {/* Replace with next/image when you add your photo */}
-          <div className="flex h-full items-center justify-center text-slate-500 dark:text-slate-400">
-            Add your photo
-          </div>
-        </div>
+        {/* <div className="relative h-64 w-64 overflow-hidden rounded-3xl border border-slate-200 shadow-lg dark:border-slate-800"> */}
+          <Image
+            src="/images/me33.png"
+            alt="Anuj Srivastava"
+          width={256}
+          height={256}
+            className="object-cover"
+            priority
+          />
+        {/* </div> */}
       </div>
     </section>
   );

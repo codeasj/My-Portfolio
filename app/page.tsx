@@ -1,6 +1,7 @@
 import Projects from "@/components/layout/Projects";
 import Hero from "../components/layout/Hero";
 import Experience from "../components/layout/Experience";
+import Skills from "../components/layout/Skills";
 import Footer from "../components/layout/Footer";
 import Navigation from "../components/layout/Navigation";
 
@@ -9,6 +10,7 @@ export default function Home() {
     <main className="bg-white text-slate-900 dark:bg-slate-950 dark:text-white">
       <Hero />
       <Projects />
+      <Skills />
       <Experience />
       <Footer />
       <Navigation />

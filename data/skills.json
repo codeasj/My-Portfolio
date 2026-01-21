@@ -1,0 +1,115 @@
+[
+  {
+    "name": "TypeScript",
+    "iconType": "typescript",
+    "color": "#3178C6"
+  },
+  {
+    "name": "JavaScript",
+    "iconType": "javascript",
+    "color": "#F7DF1E"
+  },
+  {
+    "name": "React",
+    "iconType": "react",
+    "color": "#61DAFB"
+  },
+  {
+    "name": "Next.js",
+    "iconType": "nextjs",
+    "color": "#000000"
+  },
+  {
+    "name": "HTML5",
+    "iconType": "html5",
+    "color": "#E34F26"
+  },
+  {
+    "name": "CSS3",
+    "iconType": "css3",
+    "color": "#1572B6"
+  },
+  {
+    "name": "Tailwind CSS",
+    "iconType": "tailwind",
+    "color": "#06B6D4"
+  },
+  {
+    "name": "Material-UI",
+    "iconType": "mui",
+    "color": "#007FFF"
+  },
+  {
+    "name": "shadcn/ui",
+    "iconType": "shadcn",
+    "color": "#000000"
+  },
+  {
+    "name": "Redux",
+    "iconType": "redux",
+    "color": "#764ABC"
+  },
+  {
+    "name": "Zustand",
+    "iconType": "zustand",
+    "color": "#000000"
+  },
+  {
+    "name": "Node.js",
+    "iconType": "nodejs",
+    "color": "#339933"
+  },
+  {
+    "name": "Python",
+    "iconType": "python",
+    "color": "#3776AB"
+  },
+  {
+    "name": "MongoDB",
+    "iconType": "mongodb",
+    "color": "#47A248"
+  },
+  {
+    "name": "PostgreSQL",
+    "iconType": "postgresql",
+    "color": "#336791"
+  },
+  {
+    "name": "MySQL",
+    "iconType": "mysql",
+    "color": "#4479A1"
+  },
+  {
+    "name": "Jest",
+    "iconType": "jest",
+    "color": "#C21325"
+  },
+  {
+    "name": "Azure",
+    "iconType": "azure",
+    "color": "#0078D4"
+  },
+  {
+    "name": "Apache Tomcat",
+    "iconType": "tomcat",
+    "color": "#F8DC75"
+  },
+  {
+    "name": "OpenAI",
+    "iconType": "openai",
+    "color": "#412991",
+    "learning": true
+  },
+  {
+    "name": "LangChain",
+    "iconType": "langchain",
+    "color": "#000000",
+    "learning": true
+  },
+  {
+    "name": "TensorFlow",
+    "iconType": "tensorflow",
+    "color": "#FF6F00",
+    "learning": true
+  }
+]

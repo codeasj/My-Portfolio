@@ -1,66 +1,91 @@
 [
   {
     "id": "1",
-    "title": "E-Commerce Platform",
-    "subtitle": "Full-stack shopping experience",
-    "description": "A modern e-commerce platform built with Next.js and TypeScript. Features include user authentication, shopping cart, payment integration, and admin dashboard. Responsive design with dark mode support.",
-    "url": "ecommerce-demo.vercel.app",
+    "title": "EvoNext",
+    "subtitle": "Enterprise GRC & BCM Platform",
+    "description": "A mission-critical enterprise platform used by leading banks for Governance, Risk, Compliance (GRC) and Business Continuity Management (BCM). Built frontend modules using React and TypeScript, implemented role-based access flows, audit reporting screens, and improved usability while integrating with a Java backend through REST APIs.",
+    "url": "",
     "iconType": "text",
-    "iconValue": "EC",
+    "iconValue": "EV",
     "iconBg": "blue",
-    "images": [
-      "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1?w=800&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1556742111-a301076d9d18?w=800&h=600&fit=crop"
+    "images": [    "/images/b1.png",
+    "/images/b2.png",
+    "/images/b3.png"
+]},
+  {
+    "id": "2",
+    "title": "Caprics Learning",
+    "subtitle": "Ed-Tech SaaS Platform",
+    "description": "An education SaaS and admin panel built using React, Node.js, Express, and MongoDB. Worked on API integration, admin UI workflows, and optimized backend queries using MongoDB aggregation pipelines for better performance.",
+    "url": "",
+    "iconType": "text",
+    "iconValue": "CL",
+    "iconBg": "yellow",
+   "images": [
+       "/images/cp1.png"
+     
+      
     ]
   },
   {
-    "id": "2",
-    "title": "Project Two",
-    "subtitle": "Description here",
-    "description": "This is a detailed description of Project Two. It showcases amazing features and capabilities.",
-    "url": "project2.com",
-    "icon": "/logo2.png",
-    "images": []
-  },
-  {
     "id": "3",
-    "title": "Project Three",
-    "subtitle": "Description here",
-    "description": "This is a detailed description of Project Three. It showcases amazing features and capabilities.",
-    "url": "project3.com",
+    "title": "Womb CMS",
+    "subtitle": "Content Management System",
+    "description": "A CMS platform for managing pregnancy-related content and structured information. Built using React and Node.js with REST APIs, focusing on clean admin workflows, maintainable UI architecture, and reliable data handling.",
+    "url": "",
     "iconType": "text",
-    "iconValue": "P3",
-    "iconBg": "green",
-    "images": []
+    "iconValue": "WC",
+    "iconBg": "pink",
+    "images": [
+      "/images/wb1.png",
+     "/images/wb2.png"
+     
+     
+   ]
   },
   {
     "id": "4",
-    "title": "Project Four",
-    "subtitle": "Description here",
-    "description": "This is a detailed description of Project Four. It showcases amazing features and capabilities.",
-    "url": "project4.com",
-    "icon": "/logo4.png",
-    "images": []
-  },
-  {
-    "id": "5",
-    "title": "Project Five",
-    "subtitle": "Description here",
-    "description": "This is a detailed description of Project Five. It showcases amazing features and capabilities.",
-    "url": "project5.com",
+    "title": "Kanban Board",
+    "subtitle": "Minimalist Task Management App",
+    "description": "A minimalist bento-style Kanban board built using React, TypeScript, and Tailwind CSS. Implemented drag-and-drop task flow, simple state management, and a clean grid-based UI focused on clarity, usability, and performance.",
+    "url": "https://kanban-board-six-ecru.vercel.app/",
     "iconType": "text",
-    "iconValue": "P5",
-    "iconBg": "purple",
-    "images": []
+    "iconValue": "KB",
+    "iconBg": "gray",
+    "images": [
+       "/images/kb3.png",
+      "/images/kb1.png",
+      "/images/kb2.png"
+      
+    ]
   },
   {
     "id": "6",
-    "title": "Project Six",
-    "subtitle": "Description here",
-    "description": "This is a detailed description of Project Six. It showcases amazing features and capabilities.",
-    "url": "project6.com",
-    "icon": "/logo6.png",
+    "title": "Interview Tracker",
+    "subtitle": "Job Application Management Tool",
+    "description": "A full-stack personal project built with Next.js, TypeScript, shadcn/ui, Node.js, and REST APIs to track job applications, interview stages, and follow-ups with a focus on clean UI and practical usability.",
+    "url": "",
+    "iconType": "text",
+    "iconValue": "IT",
+    "iconBg": "green",
     "images": []
+  },
+  
+  {
+    "id": "5",
+    "title": "Edutech Platform",
+    "subtitle": "Learning Content Platform",
+    "description": "An educational platform built using React, Node.js, MongoDB and Tailwind CSS where users can create, consume, and rate content. Implemented authentication, OTP-based login, and payment gateway integration for secure access.",
+    "url": "https://edunest-edtech.vercel.app/",
+    "iconType": "text",
+    "iconValue": "ED",
+    "iconBg": "orange",
+    "images": [
+      "/images/ed1.png",
+      
+      "/images/ed3.png",
+      "/images/ed4.png"
+    ]
   }
+
 ]

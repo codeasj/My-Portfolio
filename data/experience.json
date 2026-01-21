@@ -6,9 +6,9 @@
     "tenure": "10/2024 - Present",
     "backgroundImage": "/icons/card1.avif",
     "description": [
-      "Developed and maintained web applications using modern technologies",
-      "Collaborated with cross-functional teams to deliver high-quality software solutions",
-      "Implemented responsive designs and optimized application performance"
+        "Developing enterprise frontend modules using React and TypeScript for banking domain applications.",
+        "Worked on role-based access flows, audit screens, and usability improvements.",
+        "Collaborated with backend, QA, and product teams in an Agile environment."
     ]
   },
   {
@@ -18,9 +18,9 @@
     "tenure": "10/2023 - 10/2024",
     "backgroundImage": "/icons/card2.avif",
     "description": [
-      "Built full-stack applications using MongoDB, Express, React, and Node.js",
-      "Implemented RESTful APIs and responsive user interfaces",
-      "Worked on database design and optimization"
+        "Built full-stack applications using MongoDB, Express, React, and Node.js.",
+        "Implemented REST APIs, CMS workflows, and admin panel features.",
+        "Optimized backend queries and improved frontend data handling."
     ]
   },
   {
@@ -30,9 +30,10 @@
     "tenure": "01/2023 - 05/2023",
     "backgroundImage": "/icons/card3.avif",
     "description": [
-      "Learned web development fundamentals and contributed to various projects",
-      "Gained hands-on experience with HTML, CSS, and JavaScript",
-      "Assisted in debugging and testing web applications"
+        "Built client-side e-commerce and edutech platform features using HTML, CSS, and JavaScript.",
+      "Worked on authentication flows, content handling, and UI improvements.",
+      "Assisted in testing, debugging, and feature implementation."
     ]
+    
   }
 ]
