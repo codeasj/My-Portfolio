@@ -67,3 +67,11 @@ body {
     transform: translateX(-50%);
   }
 }
+
+/* Experience Card - Custom breakpoint for 1276px screens */
+@media (min-width: 1200px) {
+  .experience-card-lg {
+    max-width: none;
+    width: 380px; 
+  }
+}
