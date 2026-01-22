@@ -14,9 +14,7 @@ const nextConfig: NextConfig = {
   // Optimize production builds
   productionBrowserSourceMaps: false,
   // Reduce JavaScript bundle size
-  experimental: {
-    optimizePackageImports: ["swiper"],
-  },
+
 };
 
 export default nextConfig;

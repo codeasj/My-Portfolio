@@ -40,7 +40,7 @@ function Experience() {
             1024: {
               slidesPerView: 3,
               centeredSlides: false,
-              spaceBetween: 30,
+              spaceBetween: 20,
             },
           }}
           className="mySwiper"

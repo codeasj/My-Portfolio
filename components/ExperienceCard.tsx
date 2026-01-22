@@ -81,7 +81,7 @@ function ExperienceCard({
               isFlipped ? "opacity-100 delay-300" : "opacity-0"
             }`}
           >
-            <ul className="list-disc list-outside space-y-1 sm:space-y-1 md:space-y-1.5 lg:space-y-3 text-xs sm:text-[9px] md:text-xs lg:text-sm xl:text-base opacity-90 leading-relaxed pl-3 sm:pl-3 md:pl-4 lg:pl-6 pr-1.5 sm:pr-1.5 md:pr-2 lg:pr-0">
+            <ul className="list-disc list-outside space-y-0.5 sm:space-y-0.5 md:space-y-1 lg:space-y-1.5 text-xs sm:text-[9px] md:text-xs lg:text-xs xl:text-sm opacity-90 leading-relaxed pl-3 sm:pl-3 md:pl-4 lg:pl-6 pr-1.5 sm:pr-1.5 md:pr-2 lg:pr-0">
               {(Array.isArray(description) ? description : description.split('\n')).map((item, index) => (
                 <li key={index} className="wrap-break-word pr-0.5 sm:pr-0.5 md:pr-1 lg:pr-2">{item}</li>
               ))}
