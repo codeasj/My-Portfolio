@@ -32,7 +32,7 @@ function ProjectModal({
       onClick={onClose}
     >
       <div
-        className="relative w-full max-w-143.5 rounded-xl bg-white shadow-2xl dark:bg-slate-900"
+        className="relative w-full max-w-143.5 max-h-[90vh] overflow-y-auto rounded-xl bg-white shadow-2xl dark:bg-slate-900"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Header */}
@@ -60,7 +60,7 @@ function ProjectModal({
         </div>
 
         {/* Content */}
-        <div className="p-4">
+        <div className="p-3 sm:p-4">
           {/* Icon and Title */}
           <div className="mb-4 flex items-start gap-3">
             <div className="shrink-0">{icon}</div>
@@ -90,11 +90,11 @@ function ProjectModal({
 
           {/* Image Carousel */}
           {images.length > 0 && (
-            <div className="mb-4 flex gap-2 overflow-x-auto pb-2">
+            <div className="mb-3 flex gap-2 overflow-x-auto pb-1">
               {images.map((image, idx) => (
                 <div
                   key={idx}
-                  className="relative h-24 w-40 shrink-0 overflow-hidden rounded-lg border border-slate-200 bg-slate-100 dark:border-slate-800 dark:bg-slate-800"
+                  className="relative h-20 w-32 shrink-0 overflow-hidden rounded-lg border border-slate-200 bg-slate-100 dark:border-slate-800 dark:bg-slate-800 sm:h-24 sm:w-40"
                 >
                   <Image
                     src={image}
@@ -111,7 +111,7 @@ function ProjectModal({
 
           {/* Description */}
           {description && (
-            <p className="mb-4 text-sm text-slate-600 dark:text-slate-400">
+            <p className="mb-3 text-sm text-slate-600 dark:text-slate-400 whitespace-pre-line">
               {description}
             </p>
           )}

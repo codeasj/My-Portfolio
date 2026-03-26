@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { 
   SiReact, 
   SiNextdotjs, 
@@ -41,7 +42,18 @@ const iconMap: Record<string, React.ReactNode> = {
   mongodb: <SiMongodb className="w-8 h-8" style={{ color: "#47A248" }} />,
   postgresql: <SiPostgresql className="w-8 h-8" style={{ color: "#336791" }} />,
   mysql: <SiMysql className="w-8 h-8" style={{ color: "#4479A1" }} />,
-  azure: <div className="w-8 h-8 rounded flex items-center justify-center text-white font-bold text-xs" style={{ backgroundColor: "#0078D4" }}>A</div>,
+  azure: (
+    <div className="relative h-8 w-8">
+      <Image
+        src="/icons/azure.svg"
+        alt="Azure logo"
+        fill
+        unoptimized
+        className="object-contain"
+        sizes="32px"
+      />
+    </div>
+  ),
   tomcat: <SiApachetomcat className="w-8 h-8" style={{ color: "#F8DC75" }} />,
   typescript: <SiTypescript className="w-8 h-8" style={{ color: "#3178C6" }} />,
   javascript: <SiJavascript className="w-8 h-8" style={{ color: "#F7DF1E" }} />,
@@ -51,7 +63,55 @@ const iconMap: Record<string, React.ReactNode> = {
   jest: <SiJest className="w-8 h-8" style={{ color: "#C21325" }} />,
   python: <SiPython className="w-8 h-8" style={{ color: "#3776AB" }} />,
   openai: <SiOpenai className="w-8 h-8" style={{ color: "#412991" }} />,
+  gemini: (
+    <div className="relative h-8 w-8">
+      <Image
+        src="/icons/gemini.png"
+        alt="Gemini logo"
+        fill
+        unoptimized
+        className="object-contain"
+        sizes="32px"
+      />
+    </div>
+  ),
   langchain: <div className="w-8 h-8 rounded bg-black dark:bg-white flex items-center justify-center text-white dark:text-black font-bold text-xs">LC</div>,
+  rag: (
+    <div className="relative h-8 w-8">
+      <Image
+        src="/icons/rag.svg"
+        alt="RAG logo"
+        fill
+        unoptimized
+        className="object-contain"
+        sizes="32px"
+      />
+    </div>
+  ),
+  vectordb: (
+    <div className="relative h-8 w-8">
+      <Image
+        src="/icons/vectordb.svg"
+        alt="Vector DB logo"
+        fill
+        unoptimized
+        className="object-contain"
+        sizes="32px"
+      />
+    </div>
+  ),
+  pinecone: (
+    <div className="relative h-8 w-8">
+      <Image
+        src="/icons/pincone.png"
+        alt="Pinecone logo"
+        fill
+        unoptimized
+        className="object-contain"
+        sizes="32px"
+      />
+    </div>
+  ),
   tensorflow: <SiTensorflow className="w-8 h-8" style={{ color: "#FF6F00" }} />,
 };
 

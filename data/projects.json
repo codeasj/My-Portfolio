@@ -8,40 +8,51 @@
     "iconType": "text",
     "iconValue": "EV",
     "iconBg": "blue",
-    "images": [    "/images/b1.png",
-    "/images/b2.png",
-    "/images/b3.png"
-]},
-  {
-    "id": "2",
-    "title": "Caprics Learning",
-    "subtitle": "Ed-Tech SaaS Platform",
-    "description": "An education SaaS and admin panel built using React, Node.js, Express, and MongoDB. Worked on API integration, admin UI workflows, and optimized backend queries using MongoDB aggregation pipelines for better performance.",
-    "url": "",
-    "iconType": "text",
-    "iconValue": "CL",
-    "iconBg": "yellow",
-   "images": [
-       "/images/cp1.png"
-     
-      
-    ]
+    "images": ["/images/b1.png", "/images/b2.png", "/images/b3.png"]
   },
   {
-    "id": "3",
-    "title": "Womb CMS",
-    "subtitle": "Content Management System",
-    "description": "A CMS platform for managing pregnancy-related content and structured information. Built using React and Node.js with REST APIs, focusing on clean admin workflows, maintainable UI architecture, and reliable data handling.",
+    "id": "6",
+    "title": "Interview Tracker",
+    "subtitle": "AI-Enhanced SaaS — Job application & interview management",
+    "description": "Full-stack SaaS application with authentication, company tracking, interview stages, notes, and a feedback dashboard.\nIntegrated AI features to auto-generate recruiter cold emails, follow-up emails, and interview preparation questions using OpenAI API.\n\nTech: Next.js, TypeScript, Node.js, MongoDB, OpenAI API",
     "url": "",
     "iconType": "text",
-    "iconValue": "WC",
-    "iconBg": "pink",
-    "images": [
-      "/images/wb1.png",
-     "/images/wb2.png"
-     
-     
-   ]
+    "iconValue": "IT",
+    "iconBg": "green",
+    "images": []
+  },
+  {
+    "id": "7",
+    "title": "Resume Analyzer (RAG)",
+    "subtitle": "Skill match score + gap analysis",
+    "description": "Built a RAG pipeline where users upload a resume and paste a job description to get a skill match score and gap analysis.\nImplemented chunking, embeddings, and vector similarity search using Pinecone and LangChain.\n\nTech: Next.js, Node.js, LangChain, OpenAI API, Pinecone",
+    "url": "",
+    "iconType": "text",
+    "iconValue": "RA",
+    "iconBg": "orange",
+    "images": []
+  },
+  {
+    "id": "8",
+    "title": "Multi-Tenant Task API",
+    "subtitle": "Tenant isolation, RBAC & activity logs",
+    "description": "Production-grade multi-tenant REST API with organization signup, full tenant isolation, RBAC roles, project and task management, and activity logs.\n\nTech: Node.js, Express.js, MongoDB, JWT, Jest, Supertest",
+    "url": "",
+    "iconType": "text",
+    "iconValue": "MT",
+    "iconBg": "blue",
+    "images": []
+  },
+  {
+    "id": "9",
+    "title": "AI Developer Assistant",
+    "subtitle": "AI-powered assistant for coding, debugging, and learning.",
+    "description": "Built a full-stack developer assistant for practical day-to-day coding help. Generates code, helps debug issues, and explains concepts using OpenAI and Gemini. Key capabilities include multi-mode chat (Code/Debug/Explain/Plan), context-aware replies with sliding window memory, and clean Markdown + code block rendering.",
+    "url": "https://ai-chatbot-tau-black.vercel.app/",
+    "iconType": "text",
+    "iconValue": "AI",
+    "iconBg": "purple",
+    "images": ["/images/aic1.png", "/images/aic2.png", "/images/aic3.png"]
   },
   {
     "id": "4",
@@ -52,25 +63,8 @@
     "iconType": "text",
     "iconValue": "KB",
     "iconBg": "gray",
-    "images": [
-       "/images/kb3.png",
-      "/images/kb1.png",
-      "/images/kb2.png"
-      
-    ]
+    "images": ["/images/kb3.png", "/images/kb1.png", "/images/kb2.png"]
   },
-  {
-    "id": "6",
-    "title": "Interview Tracker",
-    "subtitle": "Job Application Management Tool",
-    "description": "A full-stack personal project built with Next.js, TypeScript, shadcn/ui, Node.js, and REST APIs to track job applications, interview stages, and follow-ups with a focus on clean UI and practical usability.",
-    "url": "",
-    "iconType": "text",
-    "iconValue": "IT",
-    "iconBg": "green",
-    "images": []
-  },
-  
   {
     "id": "5",
     "title": "Edutech Platform",
@@ -80,12 +74,17 @@
     "iconType": "text",
     "iconValue": "ED",
     "iconBg": "orange",
-    "images": [
-      "/images/ed1.png",
-      
-      "/images/ed3.png",
-      "/images/ed4.png"
-    ]
+    "images": ["/images/ed1.png", "/images/ed3.png", "/images/ed4.png"]
+  },
+  {
+    "id": "2",
+    "title": "Caprics Learning",
+    "subtitle": "Ed-Tech SaaS Platform",
+    "description": "An education SaaS and admin panel built using React, Node.js, Express, and MongoDB. Worked on API integration, admin UI workflows, and optimized backend queries using MongoDB aggregation pipelines for better performance.",
+    "url": "",
+    "iconType": "text",
+    "iconValue": "CL",
+    "iconBg": "yellow",
+    "images": ["/images/cp1.png"]
   }
-
 ]

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="r" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#6D28D9"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#r)"/>
+  <!-- Document + search -->
+  <path d="M23 14h17l5 6v30c0 2-2 4-4 4H23c-2 0-4-2-4-4V18c0-2 2-4 4-4Z" fill="#ffffff" opacity="0.15"/>
+  <path d="M26 22h16v4H26v-4Zm0 9h16v4H26v-4Zm0 9h10v4H26v-4Z" fill="#ffffff" opacity="0.85"/>
+  <circle cx="46.2" cy="41.5" r="6.5" fill="#ffffff" opacity="0.9"/>
+  <path d="M49.8 45.1l4.2 4.2" stroke="#6D28D9" stroke-width="2.4" stroke-linecap="round"/>
+  <text x="32" y="58" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#ffffff">RAG</text>
+</svg>

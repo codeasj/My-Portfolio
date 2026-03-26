@@ -97,14 +97,32 @@
   {
     "name": "OpenAI",
     "iconType": "openai",
-    "color": "#412991",
-    "learning": true
+    "color": "#412991"
+  },
+  {
+    "name": "Gemini API",
+    "iconType": "gemini",
+    "color": "#4285F4"
   },
   {
     "name": "LangChain",
     "iconType": "langchain",
-    "color": "#000000",
-    "learning": true
+    "color": "#000000"
+  },
+  {
+    "name": "RAG",
+    "iconType": "rag",
+    "color": "#6D28D9"
+  },
+  {
+    "name": "Vector DB",
+    "iconType": "vectordb",
+    "color": "#10B981"
+  },
+  {
+    "name": "Pinecone",
+    "iconType": "pinecone",
+    "color": "#0EA5E9"
   },
   {
     "name": "TensorFlow",
