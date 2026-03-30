@@ -13,13 +13,20 @@
   {
     "id": "6",
     "title": "Interview Tracker",
-    "subtitle": "AI-Enhanced SaaS — Job application & interview management",
-    "description": "Full-stack SaaS application with authentication, company tracking, interview stages, notes, and a feedback dashboard.\nIntegrated AI features to auto-generate recruiter cold emails, follow-up emails, and interview preparation questions using OpenAI API.\n\nTech: Next.js, TypeScript, Node.js, MongoDB, OpenAI API",
-    "url": "",
+    "subtitle": "Full-stack SaaS for end-to-end job search tracking",
+    "description": "Built a full-stack SaaS style app to manage the complete job search workflow: application tracking, interview rounds, dashboard analytics, and AI-assisted preparation.\nIncludes JWT auth with HTTP-only cookies, protected CRUD APIs, user-scoped data access, and resume PDF parsing with AI feedback.\n\nAI features include cold email generation, follow-up email generation, interview question generation, and a streaming assistant for interview prep and career guidance.\n\nLive frontend: https://ai-intreview-tracker.vercel.app\nBackend API: https://ai-intreview-tracker.onrender.com\n\nTech: Next.js, TypeScript, Tailwind CSS, shadcn/ui, Zustand, React Hook Form, Zod, Recharts, Node.js, Express, MongoDB, Mongoose, JWT, Multer, pdf-parse, OpenAI, Gemini, SSE",
+    "url": "https://ai-intreview-tracker.vercel.app",
     "iconType": "text",
     "iconValue": "IT",
     "iconBg": "green",
-    "images": []
+    "images": [
+      "/images/it1.png",
+      "/images/it2.png",
+      "/images/it3.png",
+      "/images/it4.png",
+      "/images/it5.png",
+      "/images/it6.png"
+    ]
   },
   {
     "id": "7",
