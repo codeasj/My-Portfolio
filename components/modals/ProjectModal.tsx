@@ -28,11 +28,11 @@ function ProjectModal({
 
   return (
     <div
-      className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 p-4"
+      className="fixed inset-0 z-100 flex items-center justify-center bg-black/50 p-4"
       onClick={onClose}
     >
       <div
-        className="relative w-full max-w-143.5 max-h-[90vh] overflow-y-auto rounded-xl bg-white shadow-2xl dark:bg-slate-900"
+        className="relative w-full max-w-143.5 max-h-[90vh] overflow-y-auto rounded-xl bg-white shadow-2xl [scrollbar-width:thin] [scrollbar-color:#475569_transparent] [&::-webkit-scrollbar]:w-1.5 [&::-webkit-scrollbar-track]:bg-transparent [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-thumb]:bg-slate-500/70 dark:bg-slate-900 dark:[scrollbar-color:#64748b_transparent] dark:[&::-webkit-scrollbar-thumb]:bg-slate-400/50"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Header */}
@@ -90,7 +90,7 @@ function ProjectModal({
 
           {/* Image Carousel */}
           {images.length > 0 && (
-            <div className="mb-3 flex gap-2 overflow-x-auto pb-1">
+            <div className="mb-3 flex gap-2 overflow-x-auto pb-1 [scrollbar-width:thin] [scrollbar-color:#475569_transparent] [&::-webkit-scrollbar]:h-1.5 [&::-webkit-scrollbar-track]:bg-transparent [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-thumb]:bg-slate-500/70 dark:[scrollbar-color:#64748b_transparent] dark:[&::-webkit-scrollbar-thumb]:bg-slate-400/50">
               {images.map((image, idx) => (
                 <div
                   key={idx}
