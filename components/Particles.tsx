@@ -3,7 +3,7 @@
 import { useEffect, useMemo } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
-import type { Container } from "@tsparticles/engine";
+import type { Container, ISourceOptions } from "@tsparticles/engine";
 
 const ParticleComponent = () => {
   useEffect(() => {
@@ -12,7 +12,7 @@ const ParticleComponent = () => {
     });
   }, []);
 
-  const options = useMemo(
+  const options = useMemo<ISourceOptions>(
     () => ({
       background: {
         color: {
@@ -25,11 +25,11 @@ const ParticleComponent = () => {
           value: "#e2e8f0",
         },
         links: {
-          color: "#e2e8f0",
-          distance: 170,
           enable: true,
-          opacity: 0.28,
-          width: 1.2,
+          color: "#cbd5e1",
+          distance: 170,
+          opacity: 0.2,
+          width: 1,
         },
         move: {
           direction: "none",
