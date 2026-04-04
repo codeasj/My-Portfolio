@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Image from "next/image";
 import { LETTER_COLORS } from "../../lib/constants";
 import heroData from "../../data/hero.json";
 
@@ -49,18 +48,7 @@ function Hero() {
           {heroData.description}
         </p>
       </div>
-      <div className="flex-1 flex justify-center md:justify-end">
-        {/* <div className="relative h-64 w-64 overflow-hidden rounded-3xl border border-slate-200 shadow-lg dark:border-slate-800"> */}
-          <Image
-            src="/images/me33.png"
-            alt="Anuj Srivastava"
-          width={256}
-          height={256}
-            className="object-cover"
-            priority
-          />
-        {/* </div> */}
-      </div>
+
     </section>
   );
 }
